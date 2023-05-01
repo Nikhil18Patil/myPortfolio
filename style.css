@@ -245,7 +245,7 @@ border-style: double;
 	.Education {
 		position: relative;
 		
-		height: 700px;
+		height: 750px;
 		background-image:url("images/n7.jpg");
 		display: flex;
 		flex-wrap: wrap;
