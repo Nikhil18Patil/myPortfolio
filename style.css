@@ -544,14 +544,7 @@ font-family:'Courier New', Courier, monospace;
     
     
 }
-.Projects {
-	position: relative;
-	
-    height: 600px;
-    background-color: rgb(70, 83, 78);
-    
-    
-}
+
 .projects {
 	padding: 50px;
 	text-align: center;
