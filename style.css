@@ -539,14 +539,19 @@ font-family:'Courier New', Courier, monospace;
 	position: relative;
 	
     height: 600px;
-    background-color: rgb(70, 83, 78);
+    background-color: white;
     
     
 }
+
 .projects {
 	padding: 50px;
 	text-align: center;
   }
+
+.projects h1{
+	margin:5px;
+}
   .project-container {
 	display: flex;
 	flex-wrap: wrap;
