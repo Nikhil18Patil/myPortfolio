@@ -535,50 +535,15 @@ font-family:'Courier New', Courier, monospace;
 /*Skills section End */
 
 /*Projects Section Start */
-.projects {
-	padding: 50px;
-	text-align: center;
-  }
-  .project-container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	gap: 30px;
-	margin-top: 20px;
-  }
-  .project {
-	max-width: 350px;
-	border: 1px solid #000000;
-	padding: 20px;
-	text-align: left;
-  }
-  .project img {
-	max-width: 100%;
-	height: auto;
-	margin-bottom: 10px;
-  }
-  .project h2 {
-	font-size: 24px;
-	margin-bottom: 10px;
-  }
-  .project p {
-	font-size: 16px;
-	margin-bottom: 20px;
-  }
-  .project a {
-	display: inline-block;
-	background-color: rgb(249, 249, 100);
-	color: #000000;
-	text-decoration: none;
-	padding: 10px 20px;
-	border-radius: 4px;
-	font-size: 20px;
-  }
-  .project a:hover {
-	background-color: rgb(247, 247, 156);
-	font-size: 22px;
-  }
-  
+.Projects {
+	position: relative;
+	
+    height: 600px;
+    background-color: rgb(70, 83, 78);
+    
+    
+}
+
 /*Projects Section End */
 
 /*Contat section start */
