@@ -298,6 +298,35 @@ border-style: double;
 		margin-bottom:5px;
        font-size: 15px;
 	}
+	@madia(max-width:1024px){
+		.Education {
+	position: relative;
+	
+    height: auto;
+    background-image:url("images/n7.jpg");
+    display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	gap: 20px;
+	
+	padding-left: 30%;
+	padding-right: 30%;
+	
+    
+}
+		
+	.edu3{
+		background-color: rgb(246, 246, 144);
+		
+	   margin:1%;
+	   border-radius: 7px;
+	   border-color: #000000;
+	   border-style: double;
+		margin-bottom:10px;
+		
+	}
+	
+	}
 
 }
 
