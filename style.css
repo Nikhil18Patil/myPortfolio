@@ -385,6 +385,7 @@ div.edu{
 
 .about_data button{
 font-size: 20px ;
+	cursor: pointer;
 margin-top:15px;
 padding: 10px;
 border-radius: 20px;
@@ -544,6 +545,7 @@ div.skill_logo img{
 
 .project button{
 	font-size: 13px ;
+	cursor: pointer;
 
 padding: 10px;
 border-radius: 20px;
