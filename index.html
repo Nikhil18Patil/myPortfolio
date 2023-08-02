@@ -5,86 +5,138 @@
  <title>Nikhil's Portfolio</title>
  <meta name="viewport" content="width=device-width,initial-scale=1.0">
  <link rel="stylesheet" href="style.css">
+ <script src="/index.js"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ <script>
+   $(document).ready(function () {
+     $(".menu-icon").click(function () {
+       $(".menu").toggleClass("active");
+     });
+   });
+ </script>
 </head>
 
 <body>
-    <nav>
-        <input id="nav-toggle" type="checkbox">
-        <div class="logo"> Nikhil Patil </div>
-        <ul class="links">
-            <li><a href="#about_me">Home</a></li>
-            <li><a href="#Skills">About</a></li>
-            <li><a href="#Education">Education
-            </a></li>
-            
-            <li><a href="#Projects">Projects</a></li>
-            <li><a href="#Contact">Contact</a></li>
-        </ul>
-        <label for="nav-toggle" class="icon-burger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-        </label>
+
+  <!--this is nav bar section -->
+    <nav class="nav">
+        <div class="navsec">
+
+          <div class="h1" ><h1> Nikhil Patil</h1>
+          </div>  
+        
+          <div class="menu" id="menu">
+            <div class="menu-icon" id="menu-icon">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul >
+            <a href="#about_me"> Home </a>
+            <a href="#Skills"> About </a>
+             <a href="#Projects"> Projects </a>
+             <a href="#Education"> Education </a>
+            <a href="#contact"> Contact </a>
+          </ul>
+       </div>
+
+       </div>
     </nav>
+
+
+    <!--this is about home section -->
     
     <div class="about_me" id="about_me">
-        <div class="sm">
-            <ul class="sms">
-                <li><a href="https://github.com/Nikhil18Patil"><img src="images/github.png"></a> </li>
-                <li><a href="https://www.linkedin.com/in/nikhil-patil-9a97971b5"><img src="images/linkedin.png"></a> </li>
-                <li><a href=" "><img src="images/instagram.png"></a> </li>
-                <li><a href=" "><img src="images/telegram.png"></a> </li>
-            </ul>
-        </div>
+      <div class="aboutt">
+         <div class="sm">
+           
+                <li><a href="https://github.com/Nikhil18Patil" target="_blank"><img src="images/github.png"></a> </li>
+                <li><a href="https://www.linkedin.com/in/nikhil-patil-9a97971b5" target="_blank"><img src="images/linkedin.png"></a> </li>
+                <li><a href=" " target="_blank"><img src="images/instagram.png"></a> </li>
+                <li><a href=" " target="_blank"><img src="images/telegram.png"></a> </li>
+           
+         </div>
+
         <div class="about">
-            <img src="images/download.jpg"  alt="imag" class="h">
-            <h3> HEY, I'M NIKHIL PATIL</h3>
+            <img src="images/nik.jpg"  alt="imag" class="h">
+            <div class="home_button">
+              <h3> Hey , This is Nikhil Patil</h3>
+            
             <p>
-                A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
+              A full-stack web developer who builds beautiful, user-friendly interfaces and robust, scalable back-ends that lead to the success of the overall product.</p>
+                 
           <a href="#Projects"><button class="aboutbtn">Projects</button></a>
-         <a href="#Contact"> <button class="aboutbtn">Contact</button></a>
-        </div>
+          
+          <a href="#contact"> <button class="aboutbtn">Contact</button></a>
+          </div>
+      </div>
+
+      </div> 
     </div>
     
-    <div class="Skills" id="Skills">
-        <h1>ABOUT ME</h1>
-        <hr class="hr1"  >
-        <p class="P1">Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</p>
-    <div class="about_flex">
+
+    <hr>
+
+
+<!--this is about me and skill section -->
+
+<div class="Skills" id="Skills">
+
+  <div class="skills">
+        
+        <h1 class="skillh1">ABOUT ME</h1>
+
+     
+        <p class="P1">Here you will find more information about me, <br>what I do, and my current skills mostly in terms of programming and technology</p>
+      
+      <div class="about_flex">
 
         <div class="about_data">
-            <h2> Get to know me!</h2>
-            <p> I'm a Frontend Web Developer building the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section.</p>
-            <p>I also like sharing content related to the stuff that I have learned over the years in Web Development so it can help other people of the Dev Community. Feel free to Connect or Follow me on my Linkedin where I post useful content related to Web Development and Programming</p>
-            <p>I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.</p>
-           <a href="#Contact"><button> Contact </button></a>
+            <h2 > Get to know me!</h2>
+            <p>I am a Full Stack Developer with experience in both front-end and back-end development. I am proficient in HTML, CSS, JavaScript, React, Django, C++, and SQL. I am a highly motivated and results-oriented individual with a passion for building innovative web applications. I am always looking for new challenges and opportunities to learn and grow.</p>
 
+            <p>I am currently open to job opportunities where I can use my skills and experience to make a positive impact. If you have a good opportunity that matches my skills and experience, please do not hesitate to contact me.</p>
+           <a href="#contact"><button> Contact </button></a>
         </div>
 
         <div class="about_skills">
             <h2> My Skills </h2>
-            <h4>C</h4>
-            <h4>C++</h4>
-            <h4>Python</h4>
-            <h4>JAVA</h4>
-            <h4>HTML - CSS - JavaScript</h4>
-            <h4>Git</h4> <h4>Github</h4> <h4>Vs code</h4>
-            <h4>Android Studio</h4>
-            <h4>Android Development</h4>
-            <h4>Website Development</h4>
+          <div class="skill_logo">
+            <img src="images/html (1).png">
+            <img src="images/css-3.png">
+            <img src="images/java-script.png">
+            <img src="images/c.png">
+            <img src="images/c++.png">
+            <img src="images/java.png">
             
+            <img src="images/python.png">
+            <img src="images/django.png">
+            <img src="images/react.png">
+            <img src="images/nodejs.png">
+            <img src="images/visual-basic.png">
+            <img src="images/git.png">
+            <img src="images/github1.png">
+            
+          </div>
         </div>
+      
+      </div>
 
+  
 
+  </div>
+</div>
 
-    </div>
+    <hr>
     
-    
-    </div>
+    <!--this is Education Section -->
 
    <div class="Education" id="Education">
-        <h1>Education Detail </h1>
+    
+    <div class="edu">
+      <h1 class="eduh1">Education : </h1>
         <div  class="edu1">
             <h2>Asha Niketan Hr. Sec. School, Burhanpur</h2>
                <h4>2018-2019</h4>
@@ -106,81 +158,146 @@
                <p> 8.7 CGPA</p>
            
         </div >
-    </div>
-    <div class="Projects" id="Projects">
-        
-          <div class="projects" id="projects">
-        <h1>Projects</h1>
-        <div class="project-container">
-          <div class="project">
-            <img src="images/krishi.png" alt="Project thumbnail">
-            <h2>Krishi Pradhan</h2>
-            <p>Krishipradhan is a farmer-centric website created within 24 hours at the National Agro Hackathon 2023.</p>
-            <a href="https://github.com/Nikhil18Patil/KrishiPraddhan.github.io.git">View Project</a>
-          </div>
-          <div class="project">
-            <img src="images/krishi.png" alt="Project thumbnail">
-            <h2>To Do list</h2>
-            <p>To Do list App that will help to manage your time and make to do list</p>
-            <a href="https://github.com/Nikhil18Patil/To_Do_list.git">View Project</a>
-          </div>
-          <div class="project">
-            <img src="images/krishi.png" alt="Project thumbnail">
-            <h2>Realtime Object Detection Application</h2>
-            <p>raltime Object Detection application where you can detect any object in real time </p>
-            <a href="project-link-url">View Project</a>
-          </div>
-          <!-- more projects as needed -->
-        </div>
+
       </div>
     </div>
-    
-    
-    <div class="Contact" id="Contact">
-        <h1>Contact </h1>
-    <div class="form">
-   <form  action="PUT" >
-    <label for="name" >Name <label>
-       <input type="text" id="name" name="name" placeholder="Your Name"> 
 
-    <label for="Email">Email</label>
-    <input type="Email" id="Email" name="Email" placeholder="your email">
-    
-    <label for="subject">Subject</label>
-    <input type="text" id="subject" name="subject" placeholder="subject">
+ <hr>
 
-    <label for="subject">Message</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+ <!--this is project section -->
 
-    <input type="submit" value="Submit">
+<div class="Projects" id="Projects">
+        
+  <div class="projects" id="projects">
+        
+    <h1>Projects</h1>
+    <div class="project-container">
+        
+      <div class="project">
+        <img src="images/krishi.png" alt="Project thumbnail" class="imgg">
+          <div class="projectabout">
+          <div>
+            <h2>Disease Prediction</h2>
+            <p>Disease prediction is a powerful tool that can help people identify potential health problems early on.
+              Machine learning algorithms  used, to analyze large datasets of patient symptoms and data to identify patterns that can be used to predict diseases.
+              Django is a popular web framework that  used, to develop web applications that use machine learning to predict diseases.
+              This type of application can  provide people with personalized health advice and to help them make informed decisions about their healthcare.</p>
+          </div>
+            <a href="https://github.com/Nikhil18Patil/KrishiPraddhan.github.io.git"><button>View Project</button></a>
+           
+          </div>
+          
+           
+        
+      </div>
+          
+      <div class="project">
+         
+        <img src="images/krishi.png" alt="Project thumbnail" class="imgg">
+          <div class="projectabout">
+            <div>
+            <h2>Krishi Pradhan</h2>
+            <p>Kirshi Pradhan is a website that was created to help farmers increase their awareness and productivity. The website provides farmers with market information, weather reports, crop information, trends, and more.
 
+              The website was built using Django, a popular web framework. Django is known for its ease of use and its ability to scale to large websites. The website also uses REST APIs to allow farmers to access the information they need on their mobile devices.</p>
+          </div>
+            <a href="https://github.com/Nikhil18Patil/To_Do_list.git"><button>View Project</button></a>
+           
+          </div>
+          
+          
+          
+      </div>
+          
+      <div class="project">
+          
+        <img src="images/krishi.png" alt="Project thumbnail" class="imgg">
+          <div class="projectabout">
+          <div>
+            <h2>ConvertDOC</h2>
+            <p>A document to PDF converter is a tool that allows you to convert any document format, such as Word, Excel, or PowerPoint, to PDF format. PDF format is a popular format for documents because it is portable, secure, and can be viewed on any device.
 
+              Your document to PDF converter was built using Django, a popular web framework. Django is known for its ease of use and its ability to scale to large websites. The converter also uses REST APIs to allow users to convert documents from anywhere.</p>
+          </div>
+            <a href="project-link-url"> <button>View Project</button></a>
+            
+          </div>
 
-
-
-   </form>
+         
+        
+      </div>
+          
+        
+    </div>
+     
+  </div>
 </div>
+    
+    <hr>
+    
+    <!--this is contact section -->
+    <div class="contact" id="contact">
+
+      <div class="form">
+        <h1> contact me </h1>
+        <form action="#home" method="">
+          <div class="row">
+            <div class="col-md-6">
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" class="form-control" placeholder="Your name">
+            </div>
+            <div class="col-md-6">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" class="form-control" placeholder="Your email">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" class="form-control" rows="5" placeholder="Your message"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <input type="submit" value="Submit" class="btn btn-primary">
+            </div>
+          </div>
+        </form>
+    
+      </div>
+      
+    
     </div>
 
-    <div class="footer">
+
+    <div class="foothr"><hr> </div>
+
+    <!-- this is footer section -->
+
+  <div class="footer">
+      
     <div class="footer_sec">
         <div class="footer_about">
             <h2> Nikhil Patil</h2>
-            <p>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
+            <p>A full-stack web developer who builds beautiful,<br> user-friendly interfaces and robust, scalable back-ends <br>that lead to the success of the overall product.</p>
+        </div>
 
-         </div>
-       <div class="footer_socail">
-        <h2 class="footer_h2"> Socail </h2>
-         <a href=""><img src=" images/github.png" alt="Github"></a>
-         <a href=""><img src=" images/linkedin.png" alt="Github"></a>
-         <a href=""><img src=" images/instagram.png" alt="Github"></a>
-         <a href=""><img src=" images/telegram.png" alt="Github"></a>
-       </div>
+      <div class="footer_social">
+         <div class="footer_h2"><h2 > Socail </h2></div>
+        <div class="footlinks">
+          <a href="https://github.com/Nikhil18Patil" target="_blank"><img src=" images/github.png" alt="Github"></a>
+          <a href="https://www.linkedin.com/in/nikhil-patil-9a97971b5" target="_blank"><img src=" images/linkedin.png" alt="Github"></a>
+         <a href="" target="_blank"><img src=" images/instagram.png" alt="Github"></a>
+         <a href="" target="_blank"><img src=" images/telegram.png" alt="Github"></a>
+        </div>
+
+      </div>
+
     </div>
 
-    <hr>
+    
     <p class="last_p">© Copyright 2023. Made by Nikhil Patil</p>
-    </div>
+  </div>
 
 </body>
 
