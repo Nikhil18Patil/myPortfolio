@@ -423,7 +423,21 @@ background: linear-gradient(to right, #f32170,
 	margin: 5px;
 	border-radius: 30%;
 	
+ cursor: pointer;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+		-o-transition: all 0.5s ease;
+	 -ms-transition: all 0.5s ease;
+			transition: all 0.5s ease;
+	
 }
+
+.skill_logo img:hover {
+	-webkit-transform: rotate(-10deg);
+	   -moz-transform: rotate(-10deg);
+			-o-transform: rotate(-10deg);
+		 -ms-transform: rotate(-10deg);
+			 }
 
 div.skill_logo img{
 	box-shadow: 0 4px 8px 0 rgba(251, 150, 150, 0.2), 0 6px 20px 0 rgba(236, 122, 122, 0.19);
