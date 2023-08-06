@@ -53,6 +53,13 @@ gap: 20px;
 	padding: 5px;
 }
 
+.sm img:hover {
+	-webkit-transform: rotate(-10deg);
+	   -moz-transform: rotate(-10deg);
+			-o-transform: rotate(-10deg);
+		 -ms-transform: rotate(-10deg);
+			 }
+
 div.sm a img{
 	box-shadow: 0 4px 8px 0 rgba(251, 150, 150, 0.2), 0 6px 20px 0 rgba(236, 122, 122, 0.19);
 }
