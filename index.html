@@ -32,6 +32,7 @@
     })
     .then(function(response) {
       console.log("Email sent:", response);
+        form.reset();
       // Show a SweetAlert popup
       Swal.fire({
         icon: 'success',
@@ -40,6 +41,7 @@
       });
     }, function(error) {
       console.log("Email error:", error);
+        
       // Show a SweetAlert error popup
       Swal.fire({
         icon: 'error',
